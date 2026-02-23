@@ -26,8 +26,12 @@ Ce travail a été réalisé dans le cadre du module **Algorithmes Avancés et C
 
 **1. Installer les dépendances nécessaires :**
 ```bash
-pip install matplotlib 
-
+pip install matplotlib
+```
+**2. Lancer la simulation :**
+```bash
+python raft.py
+```
 ## Résumé des Résultats obtenus
 
 Lors des tests de simulation, le système a démontré une grande stabilité et une convergence efficace vers le consensus :
