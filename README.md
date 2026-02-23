@@ -7,31 +7,25 @@ Ce travail a été réalisé dans le cadre du module **Algorithmes Avancés et C
 
 
 
-## Fonctionnalités principales
-
-* **Élection de Leader :** Les nœuds gèrent un cycle de vie complet (Follower → Candidate → Leader) pour élire un chef via un système de vote majoritaire.
-* **Réplication de Logs :** Le Leader centralise les décisions et réplique les entrées sur l'ensemble du cluster pour garantir la cohérence des données.
-* **Simulation Asynchrone :** Utilisation de la bibliothèque `asyncio` pour modéliser des échanges de messages concurrents et réalistes.
-* **Métriques de Performance :** Suivi précis du trafic réseau (RequestVote, AppendEntries) et calcul du temps nécessaire à la convergence du système.
+## Fonctionnalités
+* **Élection de Leader :** Les nœuds passent de l'état de Follower à celui de Candidate pour élire un Leader via un vote majoritaire.
+* **Réplication de Logs :** Le Leader gère un journal et réplique les entrées sur l'ensemble du cluster pour garantir la cohérence.
+* **Simulation Asynchrone :** Utilisation de la bibliothèque `asyncio` pour gérer les échanges de messages concurrents entre les nœuds.
+* **Métriques de Performance :** Suivi en temps réel du nombre de messages (RequestVote, AppendEntries) et de la durée des élections.
 
 ## Spécifications Techniques
-
-### Environnement
 * **Langage :** Python 3.10+
-* **Bibliothèques :** `asyncio` (concurrence), `matplotlib` (visualisation graphique), `collections` (structures de données).
+* **Bibliothèques Principales :** `asyncio`, `matplotlib`, `collections`.
 
-### Paramètres de la Simulation
-* **Nombre de nœuds :** 5
-* **Délai d'élection :** Entre 120ms et 280ms (aléatoire pour éviter les collisions).
-* **Intervalle de Heartbeat :** 50ms (pour maintenir l'autorité du Leader).
-
-
+**Configuration de la Simulation :**
+* Nombre de nœuds : 5
+* Délai d'élection : 120ms à 280ms
+* Intervalle de battement de cœur (Heartbeat) : 50ms
 
 ## Installation et Exécution
 
-1. **Cloner le dépôt :**
+**1. Installer les dépendances nécessaires :**
 ```bash
-git clone [https://github.com/salah-cherair/AAC-mini-project.git](https://github.com/salah-cherair/AAC-mini-project.git)
-cd AAC-mini-project**
+pip install matplotlib
 
 
