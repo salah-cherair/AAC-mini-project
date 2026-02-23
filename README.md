@@ -1,9 +1,7 @@
 Mini-Project: Simplified Consensus (Mini-Raft)
 Project Overview
 This project implements a simplified version of the Raft Consensus Protocol. The primary goal is to simulate a distributed system where multiple independent nodes reach an agreement on a single value, 
-even in an asynchronous environment with simulated network delays.
-
-This was developed as part of the Advanced Algorithms and Complexity course at Ferhat Abbas University - Setif 1.
+even in an asynchronous environment with simulated network delays.This was developed as part of the Advanced Algorithms and Complexity course at Ferhat Abbas University - Setif 1.
 
 Features
 
