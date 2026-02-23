@@ -1,4 +1,4 @@
-**# Mini-Projet : Consensus Simplifié (Mini-Raft)
+# Mini-Projet : Consensus Simplifié (Mini-Raft)
 
 ## Présentation du Projet
 Ce projet implémente une version simplifiée du protocole de consensus **Raft**. L'objectif principal est de simuler un système distribué où plusieurs nœuds indépendants parviennent à un accord sur une valeur unique, même dans un environnement asynchrone présentant des délais de communication simulés.
@@ -32,4 +32,6 @@ Ce travail a été réalisé dans le cadre du module **Algorithmes Avancés et C
 1. **Cloner le dépôt :**
 ```bash
 git clone [https://github.com/salah-cherair/AAC-mini-project.git](https://github.com/salah-cherair/AAC-mini-project.git)
-cd AAC-mini-project** 
+cd AAC-mini-project**
+
+
