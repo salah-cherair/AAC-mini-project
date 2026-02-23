@@ -26,6 +26,21 @@ Ce travail a été réalisé dans le cadre du module **Algorithmes Avancés et C
 
 **1. Installer les dépendances nécessaires :**
 ```bash
-pip install matplotlib
+pip install matplotlib 
+
+## Résumé des Résultats obtenus
+
+Lors des tests de simulation, le système a démontré une grande stabilité et une convergence efficace vers le consensus :
+
+* **Consensus :** Accord réussi sur la valeur finale **"SUSHI"**.
+* **Performance :** Élection d'un Leader stabilisée en moyenne entre **63ms et 79ms**.
+* **Fiabilité :** **100 %** des nœuds ont atteint le même index de validation (*commit index*).
+* **Analyse réseau :** Observation d'un flux constant de messages `AppendEntries`, confirmant la robustesse du maintien d'activité et la réplication du protocole.
 
 
+
+## Informations Académiques
+
+* **Auteur :** Salaheddine Cherair
+* **Encadreur :** Dr. Hadi Fairouz
+* **Année Universitaire :** 2025-2026
